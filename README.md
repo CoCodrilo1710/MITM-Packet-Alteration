@@ -6,6 +6,6 @@ This app use the TCP Hijack & NetfilterQueue techniques improved with continuous
 
 If I would like to alter the original payload with a payload with the same length, the dictionary would not be necessary, a simple modification of the payload associated with the packet would be enough.
 
-Like the ARP Spoofing repo, this repo is also using a docker container to get done the job. The docker file is found in the 'docker' folder and the source code and auxiliary files are found in the 'src' folder. 
+Like the ARP Spoofing repo, this repo is also using a docker container to get the job done. The docker file is found in the 'docker' folder and the source code and auxiliary files are found in the 'src' folder. 
 
 To see if this attack works, look at the tcp_server.py output, the sent messages will not coresspond with the received ones.
